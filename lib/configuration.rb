@@ -18,7 +18,7 @@ module Tenk
     # Return the base URL of the API
     # @return [String] the base URL of the API
     def api_base
-      @api_base || 'https://api.10000ft.com/api/v1'
+      @api_base || 'https://api.rm.smartsheet.com/api/v1'
     end
 
     # Return the current logger being used by the gem
